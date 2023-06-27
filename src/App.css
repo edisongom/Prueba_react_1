@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+body{
+  background-color: #f2f2f2 !important;
+
+}
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(182,149,192, 2);
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 130px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-text negrita {
+  font-weight: bold;
+}
+
+footer{
+  text-align: center;
+}
+
+.custom-button{
+  background-color: #B695C0 !important;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.margin-text {
+  margin-left: 20px; 
+  margin-right: 20px; 
+}
+
+.mb-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.responsive-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive-pagination {
+    flex-direction: column;
+  }
+
+  .responsive-pagination .button-color {
+    margin-bottom: 10px;
+  }
+
+  .responsive-pagination .margin-text {
+    margin: 10px 0;
+  }
+}
